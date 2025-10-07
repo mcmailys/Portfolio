@@ -251,7 +251,7 @@ const HomePage = () => {
               >
                 <div className="flex gap-1 mb-4">
                   {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} size={20} fill="#ffe03d" stroke="#ffe03d" />
+                    <Star key={i} size={20} fill="#f0eea5" stroke="#f0eea5" />
                   ))}
                 </div>
                 <p className="text-gray-300 mb-6 italic">"{testimonial.content}"</p>
