@@ -178,9 +178,16 @@ const AboutPage = () => {
       </section>
 
       {/* Footer */}
-      <footer className="py-8 px-6 bg-darker border-t border-neon-glow/10">
-        <div className="container mx-auto text-center text-gray-400">
-          <p>&copy; 2025 Creative Studio. All rights reserved.</p>
+      <footer className="py-12 px-6 bg-darker border-t border-neon-glow/10">
+        <div className="container mx-auto">
+          <div className="flex flex-col items-center gap-6">
+            <img 
+              src="https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/39csihrp_MCMAILYS%20sigle-15.png" 
+              alt="Logo" 
+              className="h-16 w-16 object-contain opacity-80"
+            />
+            <p className="text-gray-400 text-center">&copy; 2025 All rights reserved.</p>
+          </div>
         </div>
       </footer>
 
