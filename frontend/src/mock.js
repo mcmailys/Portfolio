@@ -106,12 +106,12 @@ export const portfolioItems = [
 ];
 
 export const clientLogos = [
-  { id: 1, name: "TechCorp", logo: "https://via.placeholder.com/200x100/0a0a0a/ffe03d?text=TechCorp" },
-  { id: 2, name: "Creative Studio", logo: "https://via.placeholder.com/200x100/0a0a0a/ffe03d?text=Creative+Studio" },
-  { id: 3, name: "Digital Agency", logo: "https://via.placeholder.com/200x100/0a0a0a/ffe03d?text=Digital+Agency" },
-  { id: 4, name: "Fashion Brand", logo: "https://via.placeholder.com/200x100/0a0a0a/ffe03d?text=Fashion+Brand" },
-  { id: 5, name: "Food Co", logo: "https://via.placeholder.com/200x100/0a0a0a/ffe03d?text=Food+Co" },
-  { id: 6, name: "Startup Inc", logo: "https://via.placeholder.com/200x100/0a0a0a/ffe03d?text=Startup+Inc" }
+  { id: 1, name: "TechCorp", logo: "https://via.placeholder.com/200x100/0a0a0a/f0eea5?text=TechCorp" },
+  { id: 2, name: "Creative Studio", logo: "https://via.placeholder.com/200x100/0a0a0a/f0eea5?text=Creative+Studio" },
+  { id: 3, name: "Digital Agency", logo: "https://via.placeholder.com/200x100/0a0a0a/f0eea5?text=Digital+Agency" },
+  { id: 4, name: "Fashion Brand", logo: "https://via.placeholder.com/200x100/0a0a0a/f0eea5?text=Fashion+Brand" },
+  { id: 5, name: "Food Co", logo: "https://via.placeholder.com/200x100/0a0a0a/f0eea5?text=Food+Co" },
+  { id: 6, name: "Startup Inc", logo: "https://via.placeholder.com/200x100/0a0a0a/f0eea5?text=Startup+Inc" }
 ];
 
 export const testimonials = [
