@@ -307,9 +307,9 @@ body {
 
 /* CTA Section */
 .bg-gradient-cta {
-  background: linear-gradient(135deg, rgba(255, 224, 61, 0.05) 0%, rgba(246, 253, 135, 0.05) 100%);
-  border-top: 1px solid rgba(255, 224, 61, 0.1);
-  border-bottom: 1px solid rgba(255, 224, 61, 0.1);
+  background: linear-gradient(135deg, rgba(240, 238, 165, 0.05) 0%, rgba(252, 252, 212, 0.05) 100%);
+  border-top: 1px solid rgba(240, 238, 165, 0.1);
+  border-bottom: 1px solid rgba(240, 238, 165, 0.1);
 }
 
 /* Contact Form */
