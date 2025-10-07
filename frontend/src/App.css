@@ -55,13 +55,15 @@ body {
 }
 
 .hover-glow {
-  transition: text-shadow 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .hover-glow:hover {
   text-shadow: 
     0 0 15px rgba(240, 238, 165, 0.6),
     0 0 25px rgba(240, 238, 165, 0.4);
+  filter: drop-shadow(0 0 10px rgba(240, 238, 165, 0.4));
+  transform: scale(1.05);
 }
 
 /* Buttons */
