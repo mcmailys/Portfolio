@@ -18,8 +18,8 @@ body {
 :root {
   --dark: #0a0a0a;
   --darker: #050505;
-  --neon-glow: #ffe03d;
-  --neon-glow-dark: #d4b82f;
+  --neon-glow: #f0eea5;
+  --neon-glow-dark: #d4d19a;
   --light-text: #e5e5e5;
   --gray-text: #9ca3af;
 }
