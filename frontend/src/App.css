@@ -98,15 +98,15 @@ body {
   display: inline-block;
   transition: all 0.3s ease;
   border: 2px solid var(--neon-glow);
-  box-shadow: 0 0 30px rgba(255, 224, 61, 0.4);
+  box-shadow: 0 0 30px rgba(240, 238, 165, 0.4);
 }
 
 .btn-neon-large:hover {
   background: transparent;
   color: var(--neon-glow);
   box-shadow: 
-    0 0 40px rgba(255, 224, 61, 0.6),
-    inset 0 0 20px rgba(255, 224, 61, 0.1);
+    0 0 40px rgba(240, 238, 165, 0.6),
+    inset 0 0 20px rgba(240, 238, 165, 0.1);
   transform: translateY(-3px);
 }
 
