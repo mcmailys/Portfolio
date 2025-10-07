@@ -51,7 +51,7 @@ body {
 
 .nav-link:hover {
   color: var(--neon-glow);
-  text-shadow: 0 0 10px rgba(255, 224, 61, 0.4);
+  text-shadow: 0 0 10px rgba(240, 238, 165, 0.4);
 }
 
 .hover-glow {
