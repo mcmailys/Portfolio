@@ -81,31 +81,50 @@ const HomePage = () => {
         </div>
       </nav>
 
-      {/* Hero Section */}
-      <section className="pt-32 pb-20 px-6">
-        <div className="container mx-auto text-center">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
+      {/* Hero Section with Video Background */}
+      <section className="hero-video-section">
+        {/* Video Background */}
+        <div className="hero-video-wrapper">
+          <video 
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+            className="hero-video"
           >
-            <h1 className="text-5xl md:text-7xl font-bold mb-6 neon-text">
-              Creative Design
-              <br />
-              <span className="text-gradient">That Stands Out</span>
-            </h1>
-            <p className="text-xl md:text-2xl text-gray-400 mb-8 max-w-3xl mx-auto">
-              Master's in Communications • Graphic Designer • Brand Strategist
-            </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a href="#portfolio" className="btn-neon">
-                View My Work
-              </a>
-              <Link to="/about" className="btn-outline">
-                Get In Touch
-              </Link>
-            </div>
-          </motion.div>
+            <source src="https://cdn.coverr.co/videos/coverr-abstract-golden-particles-5358/1080p.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          {/* Dark Overlay for better text visibility */}
+          <div className="hero-video-overlay"></div>
+        </div>
+
+        {/* Content Overlay */}
+        <div className="hero-content-overlay">
+          <div className="container mx-auto text-center px-6">
+            <motion.div
+              initial={{ opacity: 0, y: 30 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8 }}
+            >
+              <h1 className="text-5xl md:text-7xl font-bold mb-6 neon-text">
+                Creative Design
+                <br />
+                <span className="text-gradient">That Stands Out</span>
+              </h1>
+              <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                Master's in Communications • Graphic Designer • Brand Strategist
+              </p>
+              <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#portfolio" className="btn-neon">
+                  View My Work
+                </a>
+                <Link to="/about" className="btn-outline">
+                  Get In Touch
+                </Link>
+              </div>
+            </motion.div>
+          </div>
         </div>
       </section>
 
