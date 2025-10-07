@@ -43,8 +43,12 @@ const AboutPage = () => {
       <nav className="fixed top-0 left-0 right-0 z-50 bg-dark/95 backdrop-blur-sm border-b border-neon-glow/10">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <Link to="/" className="text-2xl font-bold neon-text hover-glow">
-              Creative Studio
+            <Link to="/" className="flex items-center hover-glow transition-all duration-300">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/39csihrp_MCMAILYS%20sigle-15.png" 
+                alt="Logo" 
+                className="h-12 w-12 object-contain"
+              />
             </Link>
             <Link to="/" className="nav-link flex items-center gap-2">
               <ArrowLeft size={20} /> Back to Home
