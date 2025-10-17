@@ -297,13 +297,13 @@ const HomePage = () => {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl md:text-5xl font-bold mb-6 neon-text">
-              Ready to Elevate Your Brand?
+              Prêt à Élever Votre Marque ?
             </h2>
             <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-              Let's collaborate and create something extraordinary together
+              Collaborons et créons ensemble quelque chose d'extraordinaire
             </p>
             <Link to="/about" className="btn-neon-large inline-flex items-center gap-2">
-              Get Started <ArrowRight size={20} />
+              Commencer <ArrowRight size={20} />
             </Link>
           </motion.div>
         </div>
