@@ -228,8 +228,8 @@ const HomePage = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 neon-text">They Trust Us</h2>
-            <p className="text-gray-400 text-lg">Proud to work with amazing brands</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 neon-text">Ils Me Font Confiance</h2>
+            <p className="text-gray-400 text-lg">Fier de travailler avec des marques incroyables</p>
           </motion.div>
 
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 items-center">
