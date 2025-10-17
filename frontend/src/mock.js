@@ -119,24 +119,24 @@ export const testimonials = [
     id: 1,
     name: "Sarah Johnson",
     company: "TechCorp",
-    role: "Marketing Director",
-    content: "Absolutely amazing work! The brand identity completely transformed our business presence. Professional, creative, and exceeded all expectations.",
+    role: "Directrice Marketing",
+    content: "Travail absolument incroyable ! L'identité de marque a complètement transformé notre présence commerciale. Professionnel, créatif, et a dépassé toutes les attentes.",
     rating: 5
   },
   {
     id: 2,
     name: "Michael Chen",
     company: "Creative Studio",
-    role: "CEO",
-    content: "Working together was a breeze. The social media strategy increased our engagement by 300% in just two months. Highly recommended!",
+    role: "PDG",
+    content: "Travailler ensemble a été un plaisir. La stratégie réseaux sociaux a augmenté notre engagement de 300% en seulement deux mois. Hautement recommandé !",
     rating: 5
   },
   {
     id: 3,
     name: "Emma Rodriguez",
     company: "Fashion Brand",
-    role: "Brand Manager",
-    content: "The attention to detail is incredible. Every design element perfectly captures our brand essence. True master of the craft!",
+    role: "Responsable de Marque",
+    content: "L'attention aux détails est incroyable. Chaque élément de design capture parfaitement l'essence de notre marque. Véritable maître de l'art !",
     rating: 5
   }
 ];
