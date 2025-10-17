@@ -14,7 +14,7 @@ const iconMap = {
 
 const HomePage = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState("Tous");
 
   const categories = ["Tous", ...new Set(portfolioItems.map(item => item.category))];
   
