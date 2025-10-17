@@ -108,11 +108,11 @@ const AboutPage = () => {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="contact-form-wrapper"
             >
-              <h2 className="text-3xl font-bold mb-6 neon-text">Let's Connect</h2>
+              <h2 className="text-3xl font-bold mb-6 neon-text">Restons Connectés</h2>
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium mb-2 text-gray-300">
-                    Your Name
+                    Votre Nom
                   </label>
                   <input
                     type="text"
@@ -122,13 +122,13 @@ const AboutPage = () => {
                     onChange={handleChange}
                     required
                     className="form-input"
-                    placeholder="John Doe"
+                    placeholder="Jean Dupont"
                   />
                 </div>
 
                 <div>
                   <label htmlFor="email" className="block text-sm font-medium mb-2 text-gray-300">
-                    Email Address
+                    Adresse Email
                   </label>
                   <input
                     type="email"
@@ -138,7 +138,7 @@ const AboutPage = () => {
                     onChange={handleChange}
                     required
                     className="form-input"
-                    placeholder="john@example.com"
+                    placeholder="jean@exemple.com"
                   />
                 </div>
 
@@ -154,7 +154,7 @@ const AboutPage = () => {
                     required
                     rows="6"
                     className="form-input resize-none"
-                    placeholder="Tell me about your project..."
+                    placeholder="Parlez-moi de votre projet..."
                   />
                 </div>
 
@@ -164,10 +164,10 @@ const AboutPage = () => {
                   className="btn-neon-large w-full flex items-center justify-center gap-2"
                 >
                   {isSubmitting ? (
-                    "Sending..."
+                    "Envoi en cours..."
                   ) : (
                     <>
-                      Send Message <Send size={20} />
+                      Envoyer le Message <Send size={20} />
                     </>
                   )}
                 </button>
