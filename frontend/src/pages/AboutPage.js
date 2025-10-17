@@ -51,7 +51,7 @@ const AboutPage = () => {
               />
             </Link>
             <Link to="/" className="nav-link flex items-center gap-2">
-              <ArrowLeft size={20} /> Back to Home
+              <ArrowLeft size={20} /> Retour à l'Accueil
             </Link>
           </div>
         </div>
