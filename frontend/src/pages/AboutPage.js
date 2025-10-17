@@ -29,8 +29,8 @@ const AboutPage = () => {
     // Simulate form submission
     setTimeout(() => {
       toast({
-        title: "Message Sent!",
-        description: "Thank you for reaching out. I'll get back to you soon!",
+        title: "Message Envoyé !",
+        description: "Merci de m'avoir contacté. Je vous répondrai bientôt !",
       });
       setFormData({ name: "", email: "", message: "" });
       setIsSubmitting(false);
