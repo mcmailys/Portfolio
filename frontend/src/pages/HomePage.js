@@ -258,8 +258,8 @@ const HomePage = () => {
             viewport={{ once: true }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 neon-text">Client Love</h2>
-            <p className="text-gray-400 text-lg">What clients say about working together</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 neon-text">Avis Clients</h2>
+            <p className="text-gray-400 text-lg">Ce que les clients disent de notre collaboration</p>
           </motion.div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
