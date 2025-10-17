@@ -47,9 +47,9 @@ const HomePage = () => {
               <a href="#services" className="nav-link">Services</a>
               <a href="#portfolio" className="nav-link">Portfolio</a>
               <a href="#clients" className="nav-link">Clients</a>
-              <a href="#testimonials" className="nav-link">Testimonials</a>
+              <a href="#testimonials" className="nav-link">Témoignages</a>
               <Link to="/about" className="btn-neon">
-                Contact Me
+                Me Contacter
               </Link>
             </div>
 
