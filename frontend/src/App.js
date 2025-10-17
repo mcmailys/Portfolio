@@ -6,15 +6,14 @@ import AboutPage from "./pages/AboutPage";
 
 function App() {
   return (
-     <BrowserRouter basename="/Portfolio">
-    <div className="App">
-      <BrowserRouter>
+    <BrowserRouter basename="/Portfolio">
+      <div className="App">
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
         </Routes>
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 }
 
