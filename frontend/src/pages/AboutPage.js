@@ -78,7 +78,7 @@ const AboutPage = () => {
 
               {/* Skills */}
               <div className="mb-8">
-                <h3 className="text-2xl font-bold mb-4 neon-text">Expertise</h3>
+                <h3 className="text-2xl font-bold mb-4 neon-text">Expertises</h3>
                 <div className="grid grid-cols-2 gap-3">
                   {aboutContent.skills.map((skill, index) => (
                     <motion.div
