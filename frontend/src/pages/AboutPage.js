@@ -186,7 +186,7 @@ const AboutPage = () => {
               alt="Logo" 
               className="h-16 w-16 object-contain opacity-80"
             />
-            <p className="text-gray-400 text-center">&copy; 2025 All rights reserved.</p>
+            <p className="text-gray-400 text-center">&copy; 2025 Tous droits réservés.</p>
           </div>
         </div>
       </footer>
