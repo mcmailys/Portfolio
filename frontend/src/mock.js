@@ -3,38 +3,38 @@
 export const services = [
   {
     id: 1,
-    title: "Graphic Design",
-    description: "Creative visual solutions for brands, from logos to complete brand identities.",
+    title: "Design Graphique",
+    description: "Solutions visuelles créatives pour les marques, des logos aux identités de marque complètes.",
     icon: "Palette"
   },
   {
     id: 2,
-    title: "Social Media Management",
-    description: "Strategic content creation and community management across all platforms.",
+    title: "Gestion des Réseaux Sociaux",
+    description: "Création de contenu stratégique et gestion de communauté sur toutes les plateformes.",
     icon: "Share2"
   },
   {
     id: 3,
-    title: "Printing Services",
-    description: "Professional print design for business cards, brochures, banners, and more.",
+    title: "Services d'Impression",
+    description: "Design d'impression professionnel pour cartes de visite, brochures, bannières et plus.",
     icon: "Printer"
   },
   {
     id: 4,
-    title: "Marketing Audits",
-    description: "Comprehensive analysis of your marketing strategy with actionable insights.",
+    title: "Audits Marketing",
+    description: "Analyse complète de votre stratégie marketing avec des recommandations concrètes.",
     icon: "TrendingUp"
   },
   {
     id: 5,
-    title: "Instagram Feeds",
-    description: "Cohesive and engaging Instagram feed design that tells your brand story.",
+    title: "Feeds Instagram",
+    description: "Design de feed Instagram cohérent et engageant qui raconte l'histoire de votre marque.",
     icon: "Instagram"
   },
   {
     id: 6,
-    title: "Brand Strategy",
-    description: "Building strong brand foundations with strategic positioning and messaging.",
+    title: "Stratégie de Marque",
+    description: "Construction de fondations de marque solides avec positionnement et messaging stratégiques.",
     icon: "Target"
   }
 ];
