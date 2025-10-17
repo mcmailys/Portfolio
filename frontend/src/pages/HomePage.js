@@ -113,7 +113,7 @@ const HomePage = () => {
                 <span className="text-gradient">Qui Se Démarque</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-                Master en Communication • Designer Graphique • Stratège de Marque
+                Supports digitaux et print • Design Graphique • Stratégie de Marque • Audit de Site et Réseaux Sociaux
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#portfolio" className="btn-neon">
