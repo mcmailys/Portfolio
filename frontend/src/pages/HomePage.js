@@ -174,8 +174,8 @@ const HomePage = () => {
             viewport={{ once: true }}
             className="text-center mb-12"
           >
-            <h2 className="text-4xl md:text-5xl font-bold mb-4 neon-text">My Work</h2>
-            <p className="text-gray-400 text-lg mb-8">Selected projects showcasing my expertise</p>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4 neon-text">Mon Travail</h2>
+            <p className="text-gray-400 text-lg mb-8">Projets sélectionnés démontrant mon expertise</p>
             
             {/* Category Filter */}
             <div className="flex flex-wrap justify-center gap-3 mb-8">
