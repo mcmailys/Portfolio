@@ -347,6 +347,29 @@ body {
   color: rgba(156, 163, 175, 0.6);
 }
 
+/* Image Placeholder Wrapper */
+.image-placeholder-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  border: 1px solid rgba(240, 238, 165, 0.2);
+  transition: all 0.3s ease;
+}
+
+.image-placeholder-wrapper:hover {
+  border-color: rgba(240, 238, 165, 0.4);
+  box-shadow: 0 20px 60px rgba(240, 238, 165, 0.15);
+  transform: translateY(-5px);
+}
+
+.image-placeholder-wrapper img {
+  transition: transform 0.5s ease;
+}
+
+.image-placeholder-wrapper:hover img {
+  transform: scale(1.02);
+}
+
 /* Hero Video Section */
 .hero-video-section {
   position: relative;
