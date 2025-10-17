@@ -18,7 +18,7 @@ const HomePage = () => {
 
   const categories = ["Tous", ...new Set(portfolioItems.map(item => item.category))];
   
-  const filteredPortfolio = selectedCategory === "All" 
+  const filteredPortfolio = selectedCategory === "Tous" 
     ? portfolioItems 
     : portfolioItems.filter(item => item.category === selectedCategory);
 
