@@ -72,9 +72,9 @@ const HomePage = () => {
               <a href="#services" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Services</a>
               <a href="#portfolio" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Portfolio</a>
               <a href="#clients" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Clients</a>
-              <a href="#testimonials" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Testimonials</a>
+              <a href="#testimonials" className="nav-link" onClick={() => setMobileMenuOpen(false)}>Témoignages</a>
               <Link to="/about" className="btn-neon inline-block text-center" onClick={() => setMobileMenuOpen(false)}>
-                Contact Me
+                Me Contacter
               </Link>
             </motion.div>
           )}
