@@ -108,19 +108,19 @@ const HomePage = () => {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-5xl md:text-7xl font-bold mb-6 neon-text">
-                Creative Design
+                Design Créatif
                 <br />
-                <span className="text-gradient">That Stands Out</span>
+                <span className="text-gradient">Qui Se Démarque</span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-                Master's in Communications • Graphic Designer • Brand Strategist
+                Master en Communication • Designer Graphique • Stratège de Marque
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="#portfolio" className="btn-neon">
-                  View My Work
+                  Voir Mon Travail
                 </a>
                 <Link to="/about" className="btn-outline">
-                  Get In Touch
+                  Me Contacter
                 </Link>
               </div>
             </motion.div>
