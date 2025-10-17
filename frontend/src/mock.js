@@ -142,17 +142,17 @@ export const testimonials = [
 ];
 
 export const aboutContent = {
-  title: "About Me",
-  subtitle: "Master's Degree in Communications",
-  description: "With a Master's degree in Communications and years of experience in the creative industry, I specialize in transforming brands through strategic design and compelling visual storytelling. My expertise spans graphic design, social media management, print production, and comprehensive marketing strategies that drive real results.",
+  title: "À Propos",
+  subtitle: "Master en Communication",
+  description: "Avec un Master en Communication et des années d'expérience dans l'industrie créative, je me spécialise dans la transformation des marques à travers le design stratégique et le storytelling visuel captivant. Mon expertise s'étend au design graphique, à la gestion des réseaux sociaux, à la production d'impression et aux stratégies marketing complètes qui génèrent de vrais résultats.",
   skills: [
-    "Brand Identity Design",
-    "Social Media Strategy",
-    "Print Design & Production",
-    "Marketing Analysis",
-    "Content Creation",
-    "Visual Storytelling",
-    "Digital Marketing",
-    "Instagram Management"
+    "Design d'Identité de Marque",
+    "Stratégie Réseaux Sociaux",
+    "Design & Production d'Impression",
+    "Analyse Marketing",
+    "Création de Contenu",
+    "Storytelling Visuel",
+    "Marketing Digital",
+    "Gestion Instagram"
   ]
 };
