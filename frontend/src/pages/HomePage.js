@@ -165,6 +165,28 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* Image Placeholder Section */}
+      <section className="py-20 px-6">
+        <div className="container mx-auto">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6 }}
+            className="w-full max-w-[80%] mx-auto"
+          >
+            <div className="image-placeholder-wrapper">
+              <img 
+                src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1200&q=80" 
+                alt="Creative workspace" 
+                className="w-full h-auto rounded-2xl shadow-2xl"
+                style={{ aspectRatio: '16/9', objectFit: 'cover' }}
+              />
+            </div>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Portfolio Section */}
       <section id="portfolio" className="py-20 px-6">
         <div className="container mx-auto">
