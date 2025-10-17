@@ -16,7 +16,7 @@ const HomePage = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState("All");
 
-  const categories = ["All", ...new Set(portfolioItems.map(item => item.category))];
+  const categories = ["Tous", ...new Set(portfolioItems.map(item => item.category))];
   
   const filteredPortfolio = selectedCategory === "All" 
     ? portfolioItems 
