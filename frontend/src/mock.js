@@ -42,66 +42,66 @@ export const services = [
 export const portfolioItems = [
   {
     id: 1,
-    title: "Brand Identity - Tech Startup",
-    category: "Graphic Design",
+    title: "Identité de Marque - Startup Tech",
+    category: "Design Graphique",
     image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?w=800&q=80",
-    description: "Complete brand identity including logo, color palette, and typography"
+    description: "Identité de marque complète incluant logo, palette de couleurs et typographie"
   },
   {
     id: 2,
-    title: "Social Media Campaign",
-    category: "Social Media Management",
+    title: "Campagne Réseaux Sociaux",
+    category: "Gestion des Réseaux Sociaux",
     image: "https://images.unsplash.com/photo-1611926653458-09294b3142bf?w=600&q=80",
-    description: "30-day social media campaign with content calendar and engagement strategy"
+    description: "Campagne réseaux sociaux de 30 jours avec calendrier de contenu et stratégie d'engagement"
   },
   {
     id: 3,
-    title: "Business Card Design",
-    category: "Printing",
+    title: "Design Carte de Visite",
+    category: "Impression",
     image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=500&q=80",
-    description: "Luxury business card design with embossed finishing"
+    description: "Design de carte de visite luxueuse avec finition en relief"
   },
   {
     id: 4,
-    title: "Restaurant Branding",
-    category: "Graphic Design",
+    title: "Branding Restaurant",
+    category: "Design Graphique",
     image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=700&q=80",
-    description: "Full restaurant brand design including menu, signage, and packaging"
+    description: "Design de marque complet pour restaurant incluant menu, signalétique et packaging"
   },
   {
     id: 5,
-    title: "Instagram Feed Makeover",
-    category: "Instagram Feeds",
+    title: "Refonte Feed Instagram",
+    category: "Feeds Instagram",
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=600&q=80",
-    description: "Complete Instagram aesthetic redesign with template set"
+    description: "Refonte esthétique complète d'Instagram avec ensemble de templates"
   },
   {
     id: 6,
-    title: "Marketing Strategy Report",
-    category: "Marketing Audits",
+    title: "Rapport Stratégie Marketing",
+    category: "Audits Marketing",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80",
-    description: "Comprehensive marketing audit with ROI analysis and recommendations"
+    description: "Audit marketing complet avec analyse ROI et recommandations"
   },
   {
     id: 7,
-    title: "Event Poster Design",
-    category: "Graphic Design",
+    title: "Design Affiche Événement",
+    category: "Design Graphique",
     image: "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=500&q=80",
-    description: "Eye-catching event poster series for music festival"
+    description: "Série d'affiches accrocheuses pour festival de musique"
   },
   {
     id: 8,
-    title: "Product Photography Content",
-    category: "Social Media Management",
+    title: "Contenu Photo Produit",
+    category: "Gestion des Réseaux Sociaux",
     image: "https://images.unsplash.com/photo-1522204523234-8729aa6e3d5f?w=600&q=80",
-    description: "Social media content creation for e-commerce brand"
+    description: "Création de contenu réseaux sociaux pour marque e-commerce"
   },
   {
     id: 9,
-    title: "Magazine Layout",
-    category: "Printing",
+    title: "Mise en Page Magazine",
+    category: "Impression",
     image: "https://images.unsplash.com/photo-1495465798138-718f86d1a4bc?w=700&q=80",
-    description: "Editorial layout design for quarterly lifestyle magazine"
+    description: "Design de mise en page éditoriale pour magazine lifestyle trimestriel"
   }
 ];
 
