@@ -110,12 +110,7 @@ export const clientLogos = [
   { id: 2, name: "Milieu Islam", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/jn4x0tj6_MILIEU%20ISLAM-8.png" },
   { id: 3, name: "RG Menuiserie", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/7j7lh4b0_RG%20MENUISERIE-8.png" },
   { id: 4, name: "Monte Lift", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/mzlnf8nu_MONTELIFT-8.png" },
-  { id: 5, name: "Le Palma", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/v1qokabz_LE%20PALMA-8.png" },
-  { id: 6, name: "Luxury Spa", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/ojqjeq1v_LUXURY%20SPA-8.png" },
-  { id: 7, name: "J&M Star Agency", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/81fc3k2z_image.png" },
-  { id: 8, name: "MI Propulse", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/hc1wxw4w_image.png" },
-  { id: 9, name: "SCS Solutions", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/83gt7sr9_image.png" },
-  { id: 10, name: "ISBM", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/w5t1ifih_image.png" }
+  { id: 5, name: "Le Palma", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/v1qokabz_LE%20PALMA-8.png" }
 ];
 
 export const testimonials = [
