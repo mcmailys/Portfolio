@@ -254,7 +254,7 @@ const HomePage = () => {
             <p className="text-gray-400 text-lg">Fier de travailler avec des marques incroyables</p>
           </motion.div>
 
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 items-center max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-center max-w-6xl mx-auto justify-items-center">
             {clientLogos.map((client, index) => (
               <motion.div
                 key={client.id}
