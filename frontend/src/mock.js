@@ -113,8 +113,7 @@ export const clientLogos = [
   { id: 5, name: "Le Palma", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/v1qokabz_LE%20PALMA-8.png" },
   { id: 6, name: "MI Propulse", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/tvchu4yx_image.png" },
   { id: 7, name: "Istanbul Night", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/yfw8fan3_image.png" },
-  { id: 8, name: "Luxury Spa", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/pfetgkry_image.png" },
-  { id: 9, name: "SCS Solutions", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/1v596itx_image.png" }
+  { id: 8, name: "Luxury Spa", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/pfetgkry_image.png" }
 ];
 
 export const testimonials = [
