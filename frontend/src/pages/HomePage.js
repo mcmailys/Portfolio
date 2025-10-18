@@ -175,7 +175,19 @@ const HomePage = () => {
             transition={{ duration: 0.6 }}
             className="w-full md:max-w-[90%] lg:max-w-[80%] mx-auto"
           >
-            <div className="image-placeholder-wrapper">
+            {/* Mobile Image */}
+            <div className="image-placeholder-wrapper block md:hidden">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/6troi9my_mobile%20version.png?v=1" 
+                alt="Vos flyers digitaux" 
+                className="w-full h-auto"
+                style={{ objectFit: 'contain' }}
+                loading="eager"
+              />
+            </div>
+            
+            {/* Desktop/Tablet Image */}
+            <div className="image-placeholder-wrapper hidden md:block">
               <img 
                 src="https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/tf84c5z3_banni%C3%A8re.png?v=2" 
                 alt="Vos flyers digitaux" 
