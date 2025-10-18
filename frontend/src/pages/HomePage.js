@@ -177,8 +177,8 @@ const HomePage = () => {
           >
             <div className="image-placeholder-wrapper">
               <img 
-                src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=1200&q=80" 
-                alt="Creative workspace" 
+                src="https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/gsxvr0uv_banni%C3%A8re.png" 
+                alt="Vos flyers digitaux" 
                 className="w-full h-auto rounded-2xl shadow-2xl"
                 style={{ aspectRatio: '16/9', objectFit: 'cover' }}
               />
