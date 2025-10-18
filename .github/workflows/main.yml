@@ -1,0 +1,55 @@
+name: Deploy React (frontend) to GitHub Pages
+
+on:
+  push:
+    branches:
+      - conflict_191025_0103     # ← la branche où tu modifies ton site
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+# On dit à GitHub que tous les "run" se font dans le dossier frontend
+defaults:
+  run:
+    working-directory: frontend
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # Installe et build le React qui est dans /frontend
+      - name: Install & Build
+        run: |
+          npm ci
+          PUBLIC_URL=/Portfolio npm run build
+
+      # On envoie le dossier build/ au job de déploiement
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: frontend/build
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
