@@ -106,12 +106,11 @@ export const portfolioItems = [
 ];
 
 export const clientLogos = [
-  { id: 1, name: "TechCorp", logo: "https://via.placeholder.com/200x100/0a0a0a/f0eea5?text=TechCorp" },
-  { id: 2, name: "Creative Studio", logo: "https://via.placeholder.com/200x100/0a0a0a/f0eea5?text=Creative+Studio" },
-  { id: 3, name: "Digital Agency", logo: "https://via.placeholder.com/200x100/0a0a0a/f0eea5?text=Digital+Agency" },
-  { id: 4, name: "Fashion Brand", logo: "https://via.placeholder.com/200x100/0a0a0a/f0eea5?text=Fashion+Brand" },
-  { id: 5, name: "Food Co", logo: "https://via.placeholder.com/200x100/0a0a0a/f0eea5?text=Food+Co" },
-  { id: 6, name: "Startup Inc", logo: "https://via.placeholder.com/200x100/0a0a0a/f0eea5?text=Startup+Inc" }
+  { id: 1, name: "ISBM Auto", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/uolkbgvj_ISBM%20THUMBNAIL-8.png" },
+  { id: 2, name: "Milieu Islam", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/jn4x0tj6_MILIEU%20ISLAM-8.png" },
+  { id: 3, name: "RG Menuiserie", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/7j7lh4b0_RG%20MENUISERIE-8.png" },
+  { id: 4, name: "Monte Lift", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/mzlnf8nu_MONTELIFT-8.png" },
+  { id: 5, name: "Le Palma", logo: "https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/v1qokabz_LE%20PALMA-8.png" }
 ];
 
 export const testimonials = [
