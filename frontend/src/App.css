@@ -271,6 +271,9 @@ body {
   justify-content: center;
   transition: all 0.3s ease;
   cursor: pointer;
+  height: 140px;
+  width: 100%;
+  min-height: 140px;
 }
 
 .client-logo:hover {
@@ -280,8 +283,9 @@ body {
 }
 
 .client-logo img {
-  max-width: 100%;
-  height: auto;
+  width: 180px;
+  height: 80px;
+  object-fit: contain;
   opacity: 0.8;
   transition: opacity 0.3s ease;
 }
