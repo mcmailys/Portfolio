@@ -265,15 +265,14 @@ body {
   background: rgba(20, 20, 20, 0.6);
   border: 1px solid rgba(240, 238, 165, 0.15);
   border-radius: 0.75rem;
-  padding: 1.5rem;
+  padding: 0.75rem;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
   cursor: pointer;
-  height: 140px;
-  width: 100%;
-  min-height: 140px;
+  width: fit-content;
+  margin: 0 auto;
 }
 
 .client-logo:hover {
@@ -288,6 +287,7 @@ body {
   object-fit: contain;
   opacity: 0.8;
   transition: opacity 0.3s ease;
+  display: block;
 }
 
 .client-logo:hover img {
