@@ -177,10 +177,10 @@ const HomePage = () => {
           >
             <div className="image-placeholder-wrapper">
               <img 
-                src="https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/gsxvr0uv_banni%C3%A8re.png" 
+                src="https://customer-assets.emergentagent.com/job_design-hub-64/artifacts/tf84c5z3_banni%C3%A8re.png" 
                 alt="Vos flyers digitaux" 
                 className="w-full h-auto rounded-2xl shadow-2xl"
-                style={{ aspectRatio: '16/9', objectFit: 'cover' }}
+                style={{ objectFit: 'contain' }}
               />
             </div>
           </motion.div>
