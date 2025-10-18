@@ -166,14 +166,14 @@ const HomePage = () => {
       </section>
 
       {/* Image Placeholder Section */}
-      <section className="py-20 px-6">
+      <section className="py-20 px-0 md:px-6">
         <div className="container mx-auto">
           <motion.div
             initial={{ opacity: 0, scale: 0.95 }}
             whileInView={{ opacity: 1, scale: 1 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="w-full max-w-[80%] mx-auto"
+            className="w-full md:max-w-[90%] lg:max-w-[80%] mx-auto"
           >
             <div className="image-placeholder-wrapper">
               <img 
